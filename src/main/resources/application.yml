@@ -1,0 +1,17 @@
+spring:
+  application: name=springboot-developer
+
+  datasource:
+    url: jdbc:mysql://132.226.14.34:3306/testspring
+    username: admin
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    defer-datasource-initialization: true
+#  h2:
+#    console:
+#      enabled: true
